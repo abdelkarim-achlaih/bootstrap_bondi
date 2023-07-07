@@ -1,7 +1,9 @@
 /* Start Variables */
 
-$main: #87bd25;
-$second: #33372c;
+$main: #19283f;
+$second: #33d1cc;
+$red: #ff3150;
+$yellow: #ffba0f;
 $duration: 0.4s;
 
 /* End Variables */
@@ -9,3 +11,55 @@ $duration: 0.4s;
 body {
 	font-family: "Roboto", sans-serif;
 }
+section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+/* Start Components */
+.main-btn {
+	background-color: $red;
+	color: $yellow;
+	&:hover {
+		background-color: transparent;
+		color: $second;
+	}
+}
+/* End Components */
+/* Start Header */
+header {
+	background-color: $main;
+	min-width: 72px;
+	.navbar-toggler {
+		border-color: white;
+		color: white;
+		&:focus {
+			box-shadow: none;
+			border-color: $second;
+		}
+	}
+	.nav-link {
+		color: white;
+		text-transform: capitalize;
+		&:hover,
+		&.active,
+		&:focus {
+			color: $second !important;
+		}
+	}
+	.search {
+		border-left: 2px solid $second;
+		svg {
+			color: $second;
+			cursor: pointer;
+		}
+	}
+}
+/* End Header */
+/* Start Landing Section */
+.landing {
+	height: calc(100vh - 72px);
+	background-color: $main;
+}
+/* End Landing Section */
+/* Start Features Section */
+/* End Features Section */

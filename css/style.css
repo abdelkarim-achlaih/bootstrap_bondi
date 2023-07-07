@@ -3,4 +3,59 @@
 /* Start Global Rules */
 body {
   font-family: "Roboto", sans-serif;
-}/*# sourceMappingURL=style.css.map */
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Start Components */
+.main-btn {
+  background-color: #ff3150;
+  color: #ffba0f;
+}
+.main-btn:hover {
+  background-color: transparent;
+  color: #33d1cc;
+}
+
+/* End Components */
+/* Start Header */
+header {
+  background-color: #19283f;
+  min-width: 72px;
+}
+header .navbar-toggler {
+  border-color: white;
+  color: white;
+}
+header .navbar-toggler:focus {
+  box-shadow: none;
+  border-color: #33d1cc;
+}
+header .nav-link {
+  color: white;
+  text-transform: capitalize;
+}
+header .nav-link:hover, header .nav-link.active, header .nav-link:focus {
+  color: #33d1cc !important;
+}
+header .search {
+  border-left: 2px solid #33d1cc;
+}
+header .search svg {
+  color: #33d1cc;
+  cursor: pointer;
+}
+
+/* End Header */
+/* Start Landing Section */
+.landing {
+  height: calc(100vh - 72px);
+  background-color: #19283f;
+}
+
+/* End Landing Section */
+/* Start Features Section */
+/* End Features Section *//*# sourceMappingURL=style.css.map */
