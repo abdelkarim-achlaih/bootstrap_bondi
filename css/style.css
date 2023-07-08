@@ -137,4 +137,20 @@ header .search svg {
   left: 0;
 }
 
-/* End Work Section *//*# sourceMappingURL=style.css.map */
+/* End Work Section */
+/* Start About Section */
+.about {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.about > p {
+  max-width: 500px;
+}
+.about .row h2 {
+  font-size: 20px;
+}
+.about .row p {
+  font-size: 15px;
+}
+
+/* End About Section *//*# sourceMappingURL=style.css.map */

@@ -150,3 +150,20 @@ header {
 	}
 }
 /* End Work Section */
+/* Start About Section */
+.about {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	& > p {
+		max-width: 500px;
+	}
+	.row {
+		h2 {
+			font-size: 20px;
+		}
+		p {
+			font-size: 15px;
+		}
+	}
+}
+/* End About Section */

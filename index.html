@@ -1,178 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Bondi</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/all.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
 
-	<body>
-		<header>
-			<nav class="navbar navbar-expand-lg">
-				<div class="container">
-					<a class="navbar-brand" href="#"
-						><img src="imgs/logo.png" alt="Bondi"
-					/></a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#phone_navbar"
-						aria-controls="phone_navbar"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<i class="fa-solid fa-bars"></i>
-					</button>
-					<div class="collapse navbar-collapse" id="phone_navbar">
-						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-							<li class="nav-item">
-								<a class="nav-link active p-lg-3" aria-current="page" href="#"
-									>Home</a
-								>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link p-lg-3" href="#services">services</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link p-lg-3" href="#portfolio">portfolio</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link p-lg-3" href="#about">about</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link p-lg-3" href="#contact">contact</a>
-							</li>
-						</ul>
-						<div class="search pe-lg-3 ps-lg-3 d-none d-lg-block">
-							<i class="fa-solid fa-magnifying-glass"></i>
-						</div>
-						<a href=""
-							><button class="btn main-btn rounded-pill ms-lg-3">
-								Login
-							</button></a
-						>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Bondi</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/all.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="Bondi" /></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#phone_navbar"
+					aria-controls="phone_navbar" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="phone_navbar">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active p-lg-3" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link p-lg-3" href="#services">services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link p-lg-3" href="#portfolio">portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link p-lg-3" href="#about">about</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link p-lg-3" href="#contact">contact</a>
+						</li>
+					</ul>
+					<div class="search pe-lg-3 ps-lg-3 d-none d-lg-block">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</div>
+					<a href=""><button class="btn main-btn rounded-pill ms-lg-3">
+							Login
+						</button></a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="landing d-flex flex-column align-items-center justify-content-center">
+		<h1 class="mb-3 text-light">Taste the creativity</h1>
+		<p class="text-white-50 fs-8">We make awesome graphic and web design</p>
+		<button class="btn main-btn rounded-pill ms-lg-3">Get Started</button>
+	</section>
+	<section class="features">
+		<div class="section-title mb-3 d-flex flex-column align-items-center justify-content-center">
+			<img src="imgs/title.png" alt="title" class="mb-3" />
+			<h2>We are good at</h2>
+			<p class="text-dark-50 pb-3">some of these stuff under</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg col-sm-12 feature">
+					<div class="number d-flex justify-content-center">
+						<span>1</span>
+						<i class="fa-solid fa-pen"></i>
+					</div>
+					<div class="feature-info text-center">
+						<h3>Graphic design</h3>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+							Tempora cumque, nobis vitae adipisci eum cum praesentium
+						</p>
 					</div>
 				</div>
-			</nav>
-		</header>
-		<section
-			class="landing d-flex flex-column align-items-center justify-content-center"
-		>
-			<h1 class="mb-3 text-light">Taste the creativity</h1>
-			<p class="text-white-50 fs-8">We make awesome graphic and web design</p>
-			<button class="btn main-btn rounded-pill ms-lg-3">Get Started</button>
-		</section>
-		<section class="features">
-			<div
-				class="section-title mb-3 d-flex flex-column align-items-center justify-content-center"
-			>
-				<img src="imgs/title.png" alt="title" class="mb-3" />
-				<h2>We are good at</h2>
-				<p class="text-dark-50 pb-3">some of these stuff under</p>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg col-sm-12 feature">
-						<div class="number d-flex justify-content-center">
-							<span>1</span>
-							<i class="fa-solid fa-pen"></i>
-						</div>
-						<div class="feature-info text-center">
-							<h3>Graphic design</h3>
-							<p>
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-								Tempora cumque, nobis vitae adipisci eum cum praesentium
-							</p>
-						</div>
+				<div class="col-lg col-sm-12 feature">
+					<div class="number d-flex justify-content-center">
+						<span>2</span>
+						<i class="fa-solid fa-tv"></i>
 					</div>
-					<div class="col-lg col-sm-12 feature">
-						<div class="number d-flex justify-content-center">
-							<span>2</span>
-							<i class="fa-solid fa-tv"></i>
-						</div>
-						<div class="feature-info text-center">
-							<h3>Graphic design</h3>
-							<p>
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-								Tempora cumque, nobis vitae adipisci eum cum praesentium
-							</p>
-						</div>
+					<div class="feature-info text-center">
+						<h3>Graphic design</h3>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+							Tempora cumque, nobis vitae adipisci eum cum praesentium
+						</p>
 					</div>
-					<div class="col-lg col-sm-12 feature">
-						<div class="number d-flex justify-content-center">
-							<span>3</span>
-							<i class="fa-solid fa-plug"></i>
-						</div>
-						<div class="feature-info text-center">
-							<h3>Graphic design</h3>
-							<p>
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-								Tempora cumque, nobis vitae adipisci eum cum praesentium
-							</p>
-						</div>
+				</div>
+				<div class="col-lg col-sm-12 feature">
+					<div class="number d-flex justify-content-center">
+						<span>3</span>
+						<i class="fa-solid fa-plug"></i>
+					</div>
+					<div class="feature-info text-center">
+						<h3>Graphic design</h3>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+							Tempora cumque, nobis vitae adipisci eum cum praesentium
+						</p>
 					</div>
 				</div>
 			</div>
-		</section>
-		<section class="work cyan">
-			<div
-				class="section-title mb-3 d-flex flex-column align-items-center justify-content-center"
-			>
-				<img src="imgs/title.png" alt="title" class="mb-3" />
-				<h2>We make this</h2>
-				<p class="text-dark-50 pb-3">Prepare to be amazed</p>
-			</div>
-			<div class="buttons text-center mb-5">
-				<button class="btn main-btn rounded-pill">All</button>
-				<button class="btn second-btn rounded-pill">Design</button>
-				<button class="btn second-btn rounded-pill">Code</button>
-				<button class="btn second-btn rounded-pill">Photo</button>
-				<button class="btn second-btn rounded-pill">App</button>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
-						<img src="imgs/work-01.jpg" alt="work" class="img-fluid"/>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
-						<img src="imgs/work-02.jpg" alt="work" class="img-fluid"/>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
-						<img src="imgs/work-03.jpg" alt="work" class="img-fluid"/>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
-						<img src="imgs/work-04.jpg" alt="work" class="img-fluid"/>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
-						<img src="imgs/work-05.jpg" alt="work" class="img-fluid"/>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
-						<img src="imgs/work-06.jpg" alt="work" class="img-fluid"/>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
-						<img src="imgs/work-07.jpg" alt="work" class="img-fluid"/>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
-						<img src="imgs/work-08.jpg" alt="work" class="img-fluid"/>
-					</div>
+		</div>
+	</section>
+	<section class="work cyan">
+		<div class="section-title mb-3 d-flex flex-column align-items-center justify-content-center">
+			<img src="imgs/title.png" alt="title" class="mb-3" />
+			<h2>We make this</h2>
+			<p class="text-dark-50 pb-3">Prepare to be amazed</p>
+		</div>
+		<div class="buttons text-center mb-5">
+			<button class="btn main-btn rounded-pill">All</button>
+			<button class="btn second-btn rounded-pill">Design</button>
+			<button class="btn second-btn rounded-pill">Code</button>
+			<button class="btn second-btn rounded-pill">Photo</button>
+			<button class="btn second-btn rounded-pill">App</button>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
+					<img src="imgs/work-01.jpg" alt="work" class="img-fluid" />
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
+					<img src="imgs/work-02.jpg" alt="work" class="img-fluid" />
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
+					<img src="imgs/work-03.jpg" alt="work" class="img-fluid" />
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
+					<img src="imgs/work-04.jpg" alt="work" class="img-fluid" />
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
+					<img src="imgs/work-05.jpg" alt="work" class="img-fluid" />
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
+					<img src="imgs/work-06.jpg" alt="work" class="img-fluid" />
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
+					<img src="imgs/work-07.jpg" alt="work" class="img-fluid" />
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 mb-3" data-work="App">
+					<img src="imgs/work-08.jpg" alt="work" class="img-fluid" />
+				</div>
 			</div>
 			<div class="btn-holder text-center mt-5">
 				<button class="btn main-btn rounded-pill">I want more</button>
 			</div>
-		</section>
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/all.min.js"></script>
-	</body>
+	</section>
+	<section class="about">
+		<div class="section-title mb-3 d-flex flex-column align-items-center justify-content-center">
+			<img src="imgs/title.png" alt="title" class="mb-3" />
+			<h2>Some stuff about us</h2>
+			<p class="text-dark-50 pb-3">The grat team</p>
+		</div>
+		<p class="text-center text-dark-50 m-auto mb-5">
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos necessitatibus nostrum unde, quasi facere quos vel
+			mollitia natus.
+		</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-sm-12 text-center text-lg-start">
+					<h2 class="fw-bold">Ratina Design</h2>
+					<p class="text-dark-50">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos necessitatibus nostrum unde, quasi facere quos
+						vel mollitia natus.
+					</p>
+					<p class="text-dark-50">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos necessitatibus nostrum unde, quasi facere quos
+						vel mollitia natus.
+					</p>
+					<div class="btn-holder mt-5">
+						<button class="btn main-btn rounded-pill">Order me one</button>
+					</div>
+				</div>
+				<div class="col-lg-6 col-sm-12"><img src="imgs/laptop.png" alt="About" class="img-fluid"></div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/all.min.js"></script>
+</body>
+
 </html>
