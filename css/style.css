@@ -105,4 +105,36 @@ header .search svg {
   line-height: 1.8;
 }
 
-/* End Features Section *//*# sourceMappingURL=style.css.map */
+/* End Features Section */
+/* Start Work Section */
+.work .buttons .second-btn {
+  background-color: transparent;
+  color: black;
+}
+.work .buttons .second-btn:hover {
+  background-color: #ff3150;
+  color: #ffba0f;
+}
+.work .row > div {
+  position: relative;
+  overflow: hidden;
+}
+.work .row > div::before {
+  content: attr(data-work);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: #33d1cc;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: white;
+}
+.work .row > div:hover::before {
+  left: 0;
+}
+
+/* End Work Section *//*# sourceMappingURL=style.css.map */

@@ -91,7 +91,7 @@ header {
 				position: relative;
 				span {
 					font-size: 250px;
-					color: #eff7fa;
+					color: $section;
 					text-align: center;
 					line-height: 0.9;
 				}
@@ -115,3 +115,38 @@ header {
 	}
 }
 /* End Features Section */
+/* Start Work Section */
+.work {
+	.buttons {
+		.second-btn {
+			background-color: transparent;
+			color: black;
+			&:hover {
+				background-color: $red;
+				color: $yellow;
+			}
+		}
+	}
+	.row > div {
+		position: relative;
+		overflow: hidden;
+		&::before {
+			content: attr(data-work);
+			position: absolute;
+			top: 0;
+			left: -100%;
+			background-color: $second;
+			height: 100%;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: $duration;
+			color: white;
+		}
+		&:hover::before {
+			left: 0;
+		}
+	}
+}
+/* End Work Section */
