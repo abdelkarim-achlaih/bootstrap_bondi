@@ -4,6 +4,7 @@ $main: #19283f;
 $second: #33d1cc;
 $red: #ff3150;
 $yellow: #ffba0f;
+$section: #eff7fa;
 $duration: 0.4s;
 
 /* End Variables */
@@ -15,6 +16,9 @@ section {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+section.cyan {
+	background-color: $section;
+}
 /* Start Components */
 .main-btn {
 	background-color: $red;
@@ -22,6 +26,24 @@ section {
 	&:hover {
 		background-color: transparent;
 		color: $second;
+	}
+}
+.section-title {
+	p {
+		position: relative;
+		width: fit-content;
+		text-transform: uppercase;
+		font-size: 13px;
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			height: 2px;
+			width: 50%;
+			background-color: $second;
+			transform: translateX(-50%);
+		}
 	}
 }
 /* End Components */
@@ -62,4 +84,34 @@ header {
 }
 /* End Landing Section */
 /* Start Features Section */
+.features {
+	.container {
+		.feature {
+			.number {
+				position: relative;
+				span {
+					font-size: 250px;
+					color: #eff7fa;
+					text-align: center;
+					line-height: 0.9;
+				}
+				svg {
+					position: absolute;
+					bottom: 10px;
+					left: 50%;
+					transform: translateX(-50%);
+					font-size: 70px;
+					color: $second;
+				}
+			}
+			h3 {
+				color: $yellow;
+			}
+			p {
+				font-size: 13px;
+				line-height: 1.8;
+			}
+		}
+	}
+}
 /* End Features Section */

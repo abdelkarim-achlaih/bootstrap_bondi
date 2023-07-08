@@ -10,6 +10,10 @@ section {
   padding-bottom: 60px;
 }
 
+section.cyan {
+  background-color: #eff7fa;
+}
+
 /* Start Components */
 .main-btn {
   background-color: #ff3150;
@@ -18,6 +22,24 @@ section {
 .main-btn:hover {
   background-color: transparent;
   color: #33d1cc;
+}
+
+.section-title p {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.section-title p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  width: 50%;
+  background-color: #33d1cc;
+  transform: translateX(-50%);
 }
 
 /* End Components */
@@ -58,4 +80,29 @@ header .search svg {
 
 /* End Landing Section */
 /* Start Features Section */
+.features .container .feature .number {
+  position: relative;
+}
+.features .container .feature .number span {
+  font-size: 250px;
+  color: #eff7fa;
+  text-align: center;
+  line-height: 0.9;
+}
+.features .container .feature .number svg {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 70px;
+  color: #33d1cc;
+}
+.features .container .feature h3 {
+  color: #ffba0f;
+}
+.features .container .feature p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
 /* End Features Section *//*# sourceMappingURL=style.css.map */
