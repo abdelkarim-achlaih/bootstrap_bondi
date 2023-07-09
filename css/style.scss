@@ -167,3 +167,26 @@ header {
 	}
 }
 /* End About Section */
+/* Start Team Section */
+.team {
+	h2 {
+		color: $yellow;
+		font-size: 20px;
+	}
+	p {
+		font-size: 15px;
+	}
+	.row div {
+		// padding: 0;
+		h3 {
+			color: white;
+			background-color: $second;
+			font-size: 17px;
+			letter-spacing: 1.5px;
+		}
+		p {
+			font-size: 13px;
+		}
+	}
+}
+/* End Team Section */

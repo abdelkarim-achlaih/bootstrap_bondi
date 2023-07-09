@@ -153,4 +153,23 @@ header .search svg {
   font-size: 15px;
 }
 
-/* End About Section *//*# sourceMappingURL=style.css.map */
+/* End About Section */
+/* Start Team Section */
+.team h2 {
+  color: #ffba0f;
+  font-size: 20px;
+}
+.team p {
+  font-size: 15px;
+}
+.team .row div h3 {
+  color: white;
+  background-color: #33d1cc;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+.team .row div p {
+  font-size: 13px;
+}
+
+/* End Team Section *//*# sourceMappingURL=style.css.map */
