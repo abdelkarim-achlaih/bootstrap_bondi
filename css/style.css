@@ -213,4 +213,43 @@ header .search svg {
   color: #19283f;
 }
 
-/* End Newsletter Section *//*# sourceMappingURL=style.css.map */
+/* End Newsletter Section */
+/* Start Footer Section */
+footer {
+  background-color: #19283f;
+}
+footer h2 {
+  font-size: 17px;
+}
+footer a:hover, footer a:focus {
+  color: #33d1cc !important;
+}
+footer .graph {
+  color: #33d1cc;
+}
+footer .bondi {
+  color: #ffba0f;
+}
+footer .social a {
+  color: white;
+}
+footer .social a svg {
+  font-size: 25px;
+}
+footer .social a svg.facebook {
+  color: #1877f2;
+}
+footer .social a svg.twitter {
+  color: #1da1f2;
+}
+footer .social a svg.linkedin {
+  color: #0a66c2;
+}
+footer .social a svg.youtube {
+  color: #ff0000;
+}
+footer .social a:hover {
+  color: #33d1cc !important;
+}
+
+/* End Footer Section *//*# sourceMappingURL=style.css.map */

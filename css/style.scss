@@ -226,3 +226,44 @@ header {
 	}
 }
 /* End Newsletter Section */
+/* Start Footer Section */
+footer {
+	background-color: $main;
+	h2 {
+		font-size: 17px;
+	}
+	a {
+		&:hover,
+		&:focus {
+			color: $second !important;
+		}
+	}
+	.graph {
+		color: $second;
+	}
+	.bondi {
+		color: $yellow;
+	}
+	.social a {
+		svg {
+			font-size: 25px;
+			&.facebook {
+				color: #1877f2;
+			}
+			&.twitter {
+				color: #1da1f2;
+			}
+			&.linkedin {
+				color: #0a66c2;
+			}
+			&.youtube {
+				color: #ff0000;
+			}
+		}
+		color: white;
+		&:hover {
+			color: $second !important;
+		}
+	}
+}
+/* End Footer Section */
